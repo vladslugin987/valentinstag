@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: whitesmoke;
+    font-family: Roboto;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 24px;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.content-1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('ura.jpg');
+    background-size: cover;
+}
+
+.content-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('kiss.jpg');
+    background-size: cover;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button#no:hover {
+    position: relative;
+    top: 120;
+    left: 230px; /* Можете настроить для разных направлений */
+}
